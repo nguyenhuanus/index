@@ -1,0 +1,606 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    margin: 0;
+    padding: 0;
+  
+}
+
+html
+{
+	scroll-behavior: smooth;
+}
+.all
+{
+    width: 100%;
+    height: auto;
+}
+
+
+.header
+{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+	position: fixed;
+	z-index: 100;
+
+}
+
+
+.logo
+{
+    width: 30%;
+    height: 80px;
+    float: left;
+    margin-left:50px;
+    box-sizing: border-box
+}
+
+
+@font-face
+{
+	src: url("../font/Candara.ttf");
+	font-family: avan;
+}
+
+@font-face
+{
+	src: url("../font/Bodoni-ExtraBold Bold.ttf");
+	font-family: bodoni;
+}
+
+.menu
+{
+    width: 65%;
+    height: 80px;
+    float:right;
+    box-sizing: border-box;
+	font-family: avan;
+}
+
+		.menu ul
+{
+		margin: 0;
+		padding: 0;
+}
+
+		.menu ul li
+{
+		float: right;
+		list-style: none;
+		padding: 30px;
+}
+
+
+		.menu ul li a
+{
+		text-decoration: none;
+		color:  #373737;
+}
+
+		.menu ul li:hover
+{
+		border-bottom: 8px #595959 solid;
+}
+
+
+.trangchu
+{
+	width: 100%;
+	height: 100vh;
+	background: url("../images/Farm_Kartoffelfeld_Schweden wed.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.trangchutext
+{
+	padding-top: 160px;
+	width: 1000px;
+	height: 400px;
+
+}
+
+
+.gioithieu
+{
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+
+.gioithieu
+{
+	width: 100%px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    background-color: #F5F5F5;
+}
+
+.gioithieucontent
+{
+	width: 1200px;
+	height: 100vh;
+}
+
+.gioithieuhinh
+{
+	width: 640px;
+	height: 390px;
+	float:right;
+	background: url("../images/gioithieuhinh.jpg");
+	margin-top: 15%;
+}
+.gioithieutext
+{
+	width: 450px;
+	height: 390px;
+	float:left;
+	margin-top: 15%;
+    box-sizing: border-box;
+}
+
+
+.dichvu
+{
+	width: 100%px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    background:url("../images/dichvu.jpg");
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+
+
+.dichvu_olon
+{
+	width: 1200px;
+	height: 100vhpx;
+}
+.dichvu_headtext
+{
+	width: 1200px;
+	height: 250px;
+    box-sizing: border-box;
+    padding-top: 6%;
+ 
+}
+
+.dichvu_onho
+{
+	width: 250px;
+	height: 350px;
+    background-color: rgba(200,200,200,0.8);
+    margin: 0px 25px;
+    float: left;
+    padding-left: 17px ;
+    padding-right: 17px ;
+    box-sizing: border-box; 
+}
+
+.dichvu_otron
+{
+	width: 100px;
+	height: 100px;
+    background-color: darkgreen;
+    margin: 10% 29%;
+    padding-top: 10%;
+    float: left;
+    border-radius: 100%;
+    box-sizing: border-box;
+}
+
+.duan
+{
+	width: 100%px;
+	height: 1200px;
+	display: flex;
+	justify-content: center;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.duan_olon
+{
+	width: 1200px;
+	height:1200px;
+}
+
+
+.duan_headtext
+{
+	width: 1200px;
+	height: 250px;
+    box-sizing: border-box;
+    padding-top: 6%;
+}
+
+
+.duan_khungchua9onho
+{
+	width: 1200px;
+	height: 950px;
+    box-sizing: border-box;
+	
+	
+}
+
+.duan_onho1
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan1.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+.duan_onho2
+{
+	width: 370px;
+	height: 300px;
+	background:url("../images/duan2.jpg");
+	background-size: cover;    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+
+}
+
+
+.duan_onho3
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan3.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+
+}
+
+
+.duan_onho4
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan4.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+
+}
+
+
+.duan_onho5
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan5.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+
+}
+
+
+.duan_onho6
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan6.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+
+}
+
+
+.duan_onho7
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan7.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+}
+
+
+.duan_onho8
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan8.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+}
+
+
+.duan_onho9
+{
+	width: 370px;
+	height: 300px;
+    background:url("../images/duan9.jpg");
+	background-size: cover;
+    float: left;
+    box-sizing: border-box; 
+	margin: 0px 15px 15px 15px ;
+	padding-top: 40px;
+	display: flex;
+	justify-content: center
+}
+
+
+.duan_thetrongonho
+{
+	width: 300px;
+	height: 60px;
+    background-color: #2C2C2C;
+    float: left;
+    box-sizing: border-box;
+	opacity: 0.9;
+	padding-top: 10px;
+	
+}
+
+
+
+
+.doingu
+{
+	width: 100%px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    background-color: #F5F5F5;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.doingu_olon
+{
+	width: 1200px;
+	height:100vh;
+}
+
+
+.doingu_headtext
+{
+	width: 1200px;
+	height: 300px;
+    box-sizing: border-box;
+    padding-top: 6%;
+}
+
+
+.doingu_khungchua4onho
+{
+	width: 1200px;
+	height: 650px;
+    box-sizing: border-box;
+}
+
+
+.doingu_khungchuaotronvatext
+{
+	width: 267px;
+	height: 400px;
+    float: left;
+	margin: 0px 17px 0px 16px ;
+	border-bottom: 4px solid #005A18;
+}
+.doingu_avatatron
+{
+	width: 267px;
+	height: 267px;
+	border-radius: 100%;
+    box-sizing: border-box;
+	background-size: cover;
+}
+
+.doingu_avatatron:hover
+{
+	width: 250px;
+	height: 250px;
+}
+
+.doingu_textduoiotron
+{
+	width: 267px;
+	height: 131px;
+	box-sizing: border-box;
+	padding-top: 13%
+}
+
+.lienhe
+{
+	width: 100%px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+    box-sizing: border-box;
+}
+
+.lienhe_olon
+{
+	width: 1200px;
+	height:100vh;
+}
+
+
+.lienhe_headtext
+{
+	width: 1200px;
+	height: 200px;
+    box-sizing: border-box;
+    padding-top: 6%;
+}
+
+
+.lienhe_content
+{
+	width: 1200px;
+	height: 500px;
+	box-sizing: border-box;
+	
+}
+
+
+.lienhe_box
+{
+	width: 700px;
+	height: 500px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.lienhe_box input
+{
+	width: 670px;
+	height: 40px;
+	border-radius: 6px;
+}
+.lienhe_box textarea
+{
+	width: 670px;
+	height: 200px;
+	border-radius: 6px;
+}
+.lienhe_text
+{
+	width: 500px;
+	height: 500px;
+	padding-left: 20px;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 0;
+	
+	
+}
+
+.button-a
+{
+	width: 200px;
+	height: 60px;
+	color: #005A22;
+	font-size: 14pt;
+	margin-top: 20px;
+	border: 6px solid #005A18;
+	border-radius: 8px;
+	background-color: inherit;
+}
+
+.button-b
+{
+	width: 200px;
+	height: 60px;
+	color: #005A22;
+	font-size: 14pt;
+	margin-top: 20px;
+	background-color: #005A22;
+	border-radius: 8px;
+	color: aliceblue;
+}
+
+.footter
+{
+	width: 100%;
+	height: 350px;
+	background:url("../images/Farm_Kartoffelfeld_Schweden.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+
+.footter_content
+{
+	width: 1200px;
+	height: 350px;
+}
+
+
+.footter_content_cot
+{
+	width: 400px;
+	height: 350px;
+	float: left;
+	padding-right: 22px;
+	box-sizing: border-box;
+	padding-top: 15px;
+	color: #005A22;
+	
+}
+
+
+.footter_content_hinhlogo
+{
+	width: 350px;
+	height: 150px;
+
+}
+
+.button-a:hover
+{
+	width: 200px;
+	height: 60px;
+	background-color: #005A18;
+	color: aliceblue;
+	font-size: 14pt;
+	margin-top: 20px;
+	border-radius: 8px
+}
+
+
+
+
+
+
+
+
